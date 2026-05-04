@@ -1,0 +1,1 @@
+"""badMath.vector package"""

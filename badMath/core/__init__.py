@@ -1,0 +1,1 @@
+"""badMath.core package"""
