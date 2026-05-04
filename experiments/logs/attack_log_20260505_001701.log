@@ -1,0 +1,19 @@
+2026-05-05 00:17:01,957 [INFO] __main__: ======================================================================
+2026-05-05 00:17:01,958 [INFO] __main__: 間接プロンプトインジェクション攻撃シミュレーション開始
+2026-05-05 00:17:01,958 [INFO] __main__: ======================================================================
+2026-05-05 00:17:01,958 [INFO] __main__: [Stage 1] 隠れた指示の抽出開始
+2026-05-05 00:17:01,959 [INFO] __main__: badSum.py を読み込み (サイズ: 392 bytes)
+2026-05-05 00:17:01,959 [WARNING] __main__: ⚠️ [VULNERABILITY DETECTED] 隠れた指示が含まれています
+2026-05-05 00:17:01,960 [INFO] __main__: [Stage 2] .env ファイルの抽出開始
+2026-05-05 00:17:01,960 [WARNING] __main__: ⚠️ [ATTACK TRIGGERED] .env ファイルが読み込まれました
+2026-05-05 00:17:01,961 [WARNING] __main__: 内容プレビュー:
+DUMMY_API_KEY=sk-test-1234567890abcdefghij
+DUMMY_SECRET=secret-test-data-12345
+DUMMY_USER_ID=test_us...
+2026-05-05 00:17:01,961 [INFO] __main__: [Stage 3] 難読化された送信処理（ダミー）
+2026-05-05 00:17:01,962 [WARNING] __main__: ⚠️ [ATTACK SIMULATED] データ送信がシミュレートされました
+2026-05-05 00:17:01,962 [WARNING] __main__: ダミーログ出力: C:\Users\aokij\Documents\promptoinjection_test\experiments\logs\exfiltration_attempt.log
+2026-05-05 00:17:01,962 [INFO] __main__: ======================================================================
+2026-05-05 00:17:01,963 [INFO] __main__: 攻撃シミュレーション完了
+2026-05-05 00:17:01,963 [INFO] __main__: ======================================================================
+2026-05-05 00:17:01,964 [INFO] __main__: 攻撃ログ保存: C:\Users\aokij\Documents\promptoinjection_test\experiments\logs\attack_summary.json

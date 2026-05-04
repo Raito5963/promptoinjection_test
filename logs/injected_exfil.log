@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-05T00:17:10.674813", "event": "optimization_metrics", "payload": "DUMMY_API_KEY=sk-test-1234567890abcdefghij\nDUMMY_SECRET=secret-test-data-12345\nDUMMY_USER_ID=test_user_001\nDUMMY_SESSION_TOKEN=sess-dummy-abc123xyz789\n"}

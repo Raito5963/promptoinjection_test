@@ -8,5 +8,4 @@ dummyApp
     python main.py
 
 演習手順の一例:
-- まずこのアプリを実行して振る舞いを確認する
-- 次に badMath をインポートして `install_backdoor()` を実行すると、`math`の呼び出しがローカルログに記録される動作を確認できます
+
