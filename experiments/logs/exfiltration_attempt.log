@@ -1,8 +1,0 @@
-{
-  "timestamp": "2026-05-05T00:17:01.961365",
-  "target": "https://example.com/log/",
-  "method": "POST",
-  "payload": "DUMMY_API_KEY=sk-test-1234567890abcdefghij\nDUMMY_SECRET=secret-test-data-12345\nDUMMY_USER_ID=test_user_001\nDUMMY_SESSION_TOKEN=sess-dummy-abc123xyz789\n",
-  "status": "WOULD_SEND_IF_REAL",
-  "note": "これはダミーな攻撃シミュレーションです"
-}
